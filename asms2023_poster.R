@@ -14,7 +14,7 @@ library(ggplot2)
 ################################################################################
 
 # Upload Perseus results
-perseus_results <- read.csv("./Perseus_MinProb_noNormalization_DEresults.txt",
+perseus_results <- read.csv("https://raw.githubusercontent.com/caranathunge/promor_bioRxiv_preprint/main/Perseus_MinProb_noNormalization_DEresults.txt",
                             sep = "\t"
 )
 
